@@ -1,0 +1,26 @@
+.footer{     
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: black;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+}
+
+.ulListLeft>ul{
+    text-align: left;
+
+}
+.ulListRight>ul{
+    text-align: right;
+    
+}
+.socialLogo{
+    text-align: right;
+
+}

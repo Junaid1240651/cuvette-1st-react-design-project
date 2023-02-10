@@ -1,0 +1,178 @@
+.innerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 90px 95px 90px;
+    
+    }
+    .leftDiv{
+    display: flex;
+    flex-direction: column;
+    }
+    .rightDiv{
+        display: flex;
+        flex-direction: row;
+    }
+    .leftDiv>h1{
+        width: 562px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+    
+    }
+    .leftDiv>p{
+        width: 495px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 160%;
+        /* or 32px */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #484848;
+    }
+    
+    .leftDiv>h3{
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 160%;
+    /* or 32px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #282828;
+    }
+    .inpbtn>input{
+        width: 350px;
+        height: 64px;
+        font-family: 'Inter';
+        padding-left: 20px;
+        padding-right: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 160%;
+        /* or 32px */
+        align-items: center;
+        border: 4px solid #000000;
+    border-radius: 8px;
+        color: #888888;
+        
+    }
+    
+    .inpbtn>button:nth-of-type(1){
+    width: 216px;
+    height: 64px;
+    margin-left: 20px;
+    color: white;
+    background: #282828;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    }
+    .leftDiv>p:nth-of-type(2){
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        /* or 26px */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+    }
+    .rightDiv>img{
+        width: 570px;
+        height: 570px;
+    }
+   
+    @media  (max-width: 1250px) {
+        .innerContainer
+        {
+            display: inline;
+            justify-content: center;
+            overflow: hidden;
+    
+        }
+        .leftDiv{
+            justify-content: center;
+            align-items: center;
+            }
+            .leftDiv>p{
+                width: 59vh;
+                
+            }
+            .rightDiv{
+                padding-top: 30px;
+                justify-content: center;
+                align-items: center;
+    
+            }
+            .inpbtn>button:nth-of-type(1){
+                display: inline-block;
+                margin-top: 0px;
+                margin-left: 20px;
+            }
+           
+    
+      }
+      @media  ((max-width: 1420px) and (min-width: 1251px)) {
+        .inpbtn>button:nth-of-type(1){
+            display: block;
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+      }
+      @media  (max-width: 660px) {
+        .leftDiv>h1{
+            font-size: 20px;
+            text-align: center;
+        }
+        .inpbtn>input{
+            width: 230px;
+            height: 50px;
+        }
+        .inpbtn>button:nth-of-type(1){
+            width: 120px;
+            height: 40px;
+            font-size: 15px;
+            margin: 20px;
+
+        }
+        .leftDiv>p:nth-of-type(2){ 
+            justify-content: center;
+        }
+        .rightDiv>img{
+            width: 400px;
+            height: 400px;
+        }
+      }
+       @media  (max-width: 660px) {
+        .leftDiv>h1{
+            font-size: 18px;
+        }
+        .leftDiv>p{
+            width: 47vh;
+            margin: 0px;
+        }
+      }
+      
+
+      
