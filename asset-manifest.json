@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Junaid1240651--cuvette-1st-react-design-project-live/static/css/main.ba66269a.css",
+    "main.js": "/Junaid1240651--cuvette-1st-react-design-project-live/static/js/main.2ccfba96.js",
+    "static/media/Vector.png": "/Junaid1240651--cuvette-1st-react-design-project-live/static/media/Vector.2b356430f614926326a7.png",
+    "index.html": "/Junaid1240651--cuvette-1st-react-design-project-live/index.html",
+    "main.ba66269a.css.map": "/Junaid1240651--cuvette-1st-react-design-project-live/static/css/main.ba66269a.css.map",
+    "main.2ccfba96.js.map": "/Junaid1240651--cuvette-1st-react-design-project-live/static/js/main.2ccfba96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba66269a.css",
+    "static/js/main.2ccfba96.js"
+  ]
+}
